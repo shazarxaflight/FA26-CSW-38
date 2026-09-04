@@ -3,20 +3,19 @@
 
 <head>
   <!--
-  Chapter 2 Coding Exercise 2-2
+  Learning HTML Canvas: Read, Review, Code! - Clockface Upgrade!
   Author: Alice Chevrier-King
   Date: 09/03/2026
   
   Filename: index.html
   -->
   <meta charset="utf-8" />
-  <title>test</title>
-   
+  <title>Clockface Upgrade</title>
 </head>
 
 <body>
 
-<canvas id="canvas" width="400" height="400" style="background-color:#333">
+<canvas id="canvas" width="400" height="400" style="background-color:green">
 Sorry, your browser does not support canvas.
 </canvas>
 
@@ -36,12 +35,12 @@ function drawClock() {
 
 function drawFace(ctx, radius) {
   const grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-  grad.addColorStop(0, '#333');
-  grad.addColorStop(0.5, 'white');
-  grad.addColorStop(1, '#333');
+  grad.addColorStop(0, 'purple');
+  grad.addColorStop(0.5, 'lavender');
+  grad.addColorStop(1, 'purple');
   ctx.beginPath();
   ctx.arc(0, 0, radius, 0, 2*Math.PI);
-  ctx.fillStyle = 'white';
+  ctx.fillStyle = '#00ff00';
   ctx.fill();
   ctx.strokeStyle = grad;
   ctx.lineWidth = radius*0.1;
@@ -97,6 +96,7 @@ function drawHand(ctx, pos, length, width) {
     ctx.stroke();
     ctx.rotate(-pos);
 }
+
 </script>
 
 </body>
