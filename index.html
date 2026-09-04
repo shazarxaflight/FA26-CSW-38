@@ -31,6 +31,7 @@ function drawClock() {
   drawFace(ctx, radius);
   drawNumbers(ctx, radius);
   drawTime(ctx, radius);
+  drawName(ctx, radius);
 }
 
 function drawFace(ctx, radius) {
@@ -97,6 +98,12 @@ function drawHand(ctx, pos, length, width) {
     ctx.rotate(-pos);
 }
 
+function drawName(ctx, radius) {
+  ctx.font = radius*0.1 + "px arial";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  ctx.fillText('Alice Chevrier-King', 0, 50);
+}
 </script>
 
 </body>
