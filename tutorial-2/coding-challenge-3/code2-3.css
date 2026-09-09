@@ -40,9 +40,13 @@ img {
 
 p {
    font-size: 1.4em;
+   text-indent: 1em;
+}
+
+p:first-of-type {
+   text-indent: 0em;
 }
 
 p:first-of-type::first-line {
    font-variant: small-caps;
-   text-indent: 0em;
 }
