@@ -34,7 +34,6 @@ html {
    background-color: white;
 }
 
-
 /* Body Styles */
 
 body {
@@ -50,7 +49,6 @@ body > header > img {
    display: block;
    width: 100%;
 }
-
 
 /* Horizontal Navigation List Styles */
 
@@ -78,7 +76,6 @@ nav.horizontal a:hover, nav.horizontal:active {
    background-color: rgb(62, 56, 45);
 }
 
-
 /* Footer Styles */
 
 body > footer {
@@ -89,7 +86,6 @@ body > footer {
    line-height: 24px;
    text-align: center;
 }
-
 
 /* Article Styles */
 
@@ -105,8 +101,6 @@ body > article > h1 {
 body > article > p {
    margin: 20px;
 }  
-
-
 
 /* Aside Styles */
 
@@ -124,7 +118,6 @@ aside p {
    line-height: 1.4em;
    margin: 20px;
 }
-
 
 /* Interactive Map Styles */
 
