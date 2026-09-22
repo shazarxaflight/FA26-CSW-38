@@ -45,7 +45,7 @@
             // Draw simple background ground line
             ctx.strokeStyle = '#475569';
             ctx.lineWidth = 2;
-            ctx.beginPath(); ctx.moveTo(0, posY + frameHeight); ctx.lineTo(canvas.width, posY + frameHeight); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(0, posY); ctx.lineTo(canvas.width, posY); ctx.stroke();
             
             // Loop through the vertical sequence of the sprite sheet
             //drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
@@ -56,7 +56,7 @@
             );
             
             // Advance position across screen
-            posX += 1.5;
+            posX += 0.5;
             if (posX > canvas.width) posX = -frameHeight; // Reset loop back to top side
             
             // Handle frame timing rhythm 
