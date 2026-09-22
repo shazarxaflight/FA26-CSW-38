@@ -34,7 +34,7 @@
          const frameHeight = 341.333;  // Height of one soldier frame
          const totalFrames = 6;   // Total animation frames in the marching cycle
          let currentFrame = 0;
-         let posX = - frameHeight;   // Start just off-screen left
+         let posX = - frameHeight;   // Start just off-screen
          const posY = 180;        // Vertical ground alignment
          let gameFrameCount = 0;
          const animationSpeed = 6; // Lower numbers make the feet move faster
@@ -47,11 +47,11 @@
             ctx.lineWidth = 2;
             ctx.beginPath(); ctx.moveTo(0, posY + frameHeight); ctx.lineTo(canvas.width, posY + frameHeight); ctx.stroke();
             
-            // Loop through the horizontal sequence of the sprite sheet
+            // Loop through the vertical sequence of the sprite sheet
             //drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
             ctx.drawImage(
                soldierSprite, 
-              currentFrame * frameHeight, 0, frameWidth, frameHeight, 
+              currentFrame * frameWidth, 0, frameWidth, frameHeight, 
               posX, posY, frameWidth * 0.7, frameHeight * 0.7 // Scaled slightly smaller
             );
             
