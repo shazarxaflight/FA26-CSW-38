@@ -13,6 +13,16 @@
 
 */
 
+/* Canvas Styles */
+
+canvas {
+   display: block;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-bottom: 0px;
+   margin-left: auto;
+}
+
 /* Article Styles */
 
 article {
@@ -55,7 +65,7 @@ div#battleMap {
 }
 
 img#mapImage {
-   display:block;
+   display: block;
    width: 100%;
 }
 
