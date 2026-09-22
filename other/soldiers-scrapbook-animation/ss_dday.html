@@ -34,10 +34,10 @@
          const frameHeight = 341.333;  // Height of one soldier frame
          const totalFrames = 6;   // Total animation frames in the marching cycle
          let currentFrame = 0;
-         let posX = 180;   // Start in the middle of the screen
+         let posX = -frameWidth;   // Start just off-screen left
          let posY = 30;        // Vertical ground alignment
          let gameFrameCount = 0;
-         const animationSpeed = 20; // Lower numbers make the feet move faster
+         const animationSpeed = 30; // Lower numbers make the feet move faster
          
          function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -56,8 +56,8 @@
             );
             
             // Advance position across screen
-            // posX += 1.5;
-            // if (posX > canvas.width) posX = -frameHeight; // Reset loop back to top side
+            posX += 1.5;
+            if (posX > canvas.width) posX = -frameHeight; // Reset loop back to top side
             
             // Handle frame timing rhythm 
             gameFrameCount++;
