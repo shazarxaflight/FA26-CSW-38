@@ -21,7 +21,7 @@
 <body>
    <header>
       <img src="ss_logo.png" alt="A Soldier's Scrapbook" />
-      <canvas id="marchCanvas" width="400" height="400"></canvas>
+      <canvas id="marchCanvas" width="600" height="600" margin-left="auto" margin-right="auto"></canvas>
       <script>
          const canvas = document.getElementById('marchCanvas');
          const ctx = canvas.getContext('2d');
@@ -52,12 +52,12 @@
             ctx.drawImage(
                soldierSprite, 
               currentFrame * frameWidth, 0, frameWidth, frameHeight, 
-              posX, posY, frameWidth * 1.5, frameHeight * 1.5 // Scaled slightly larger
+              posX, posY, frameWidth * 0.7, frameHeight * 0.7 // Scaled slightly smaller
             );
             
             // Advance position across screen
             posX += 1.5;
-            if (posX > canvas.width) posX = -frameWidth; // Reset loop back to left side
+            if (posX > canvas.width) posX = -frameHeight; // Reset loop back to top side
             
             // Handle frame timing rhythm 
             gameFrameCount++;
