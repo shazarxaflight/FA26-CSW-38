@@ -21,7 +21,7 @@
 <body>
    <header>
       <img src="ss_logo.png" alt="A Soldier's Scrapbook" />
-      <canvas id="marchCanvas" width="1152" height="200"></canvas>
+      <canvas id="marchCanvas" width="1152" height="150"></canvas>
       <script>
          const canvas = document.getElementById('marchCanvas');
          const ctx = canvas.getContext('2d');
@@ -45,7 +45,7 @@
             // Draw simple background ground line
             ctx.strokeStyle = '#475569';
             ctx.lineWidth = 2;
-            ctx.beginPath(); ctx.moveTo(0, frameWidth * 0.3 + posY); ctx.lineTo(canvas.width, frameWidth * 0.3 + posY); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(0, frameHeight * 0.3 + posY); ctx.lineTo(canvas.width, frameHeight * 0.3 + posY); ctx.stroke();
             
             // Loop through the vertical sequence of the sprite sheet
             //drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
