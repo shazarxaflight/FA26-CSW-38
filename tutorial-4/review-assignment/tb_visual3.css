@@ -36,7 +36,7 @@ main {
                inset rgb(71, 71, 71) 10px 10px 25px;
 }
 
-main h1 {
+main header h1 {
    text-shadow: rgb(221, 221, 221) 1px 1px 0px,
                 rgba(41, 41, 41, 0.9) 5px 5px 20px;
 }
