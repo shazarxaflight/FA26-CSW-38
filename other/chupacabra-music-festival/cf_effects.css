@@ -88,4 +88,21 @@ div#cube_top {
 
 div#cube_bottom {
    transform: translateY(200px) rotateX(90deg);
+   animation-name: glow_animation;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes glow_animation {
+   from {
+      text-shadow: #ffffff 0px 0px 10px,
+                   #ffffff 0px 0px 20px,
+                   #ffffff 0px 0px 30px;
+   }
+   to {
+      text-shadow: #ffffff 0px 0px 30px,
+                   #ffffff 0px 0px 40px,
+                   #ffffff 0px 0px 50px;
+   }
 }
