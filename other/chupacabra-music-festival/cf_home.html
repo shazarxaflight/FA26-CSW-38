@@ -53,6 +53,7 @@
          <p>Please see the <a href="#">camping section</a> for more details.</p>
       </aside>
    </section>
+   
    <section id="center">
       <div id="cube">
       
@@ -85,6 +86,36 @@
          
       </div>
    </section>
+
+   <script>
+      var i = 0;
+      var txt = 'The 15th Annual Chupacabra Music Festival';
+      var isDeleting = false;
+      
+      function typewriter() {
+         var speed = isDeleting ? 50 : 100;
+         if (isDeleting) {
+            document.getElementById("cube_bottom").innerHTML = txt.substring(0, i - 1);
+         	i--;
+         } else {
+         	document.getElementById("cube_bottom").innerHTML = txt.substring(0, i + 1);
+            i++;
+         }
+         if (!isDeleting && i === txt.length) {
+            speed = 1500;
+            isDeleting = true;
+         } else if (isDeleting && i === 0) {
+            isDeleting = false;
+            speed = 500;
+         }
+         document.getElementById("help").innerHTML = i;
+         document.getElementById("please").innerHTML = speed;
+         document.getElementById("hhh").innerHTML = isDeleting
+         setTimeout(typewriter, speed);
+      }
+      
+      document.addEventListener("DOMContentLoaded", typewriter);
+   </script>
    
    <section id="right">
       <aside>
