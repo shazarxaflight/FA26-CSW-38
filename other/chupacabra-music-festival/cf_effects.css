@@ -94,13 +94,15 @@ div#cube_bottom {
 
 @keyframes glow_animation {
    from {
-      text-shadow: #c3b70f 0px 0px 2px,
-                   #c3b70f 0px 0px 4px,
-                   #c3b70f 0px 0px 6px;
+      text-shadow: rgba(195, 183, 15, 0.6) 0px 0px 0px,
+                   rgba(195, 183, 15, 0.6) 0px 0px 5px,
+                   rgba(195, 183, 15, 0.6) 0px 0px 10px;
    }
    to {
-      text-shadow: #c3b70f 0px 0px 6px,
-                   #c3b70f 0px 0px 8px,
-                   #c3b70f 0px 0px 10px;
+      text-shadow: rgba(195, 183, 15, 0.6) 0px 0px 15px,
+                   rgba(195, 183, 15, 0.6) 0px 0px 20px,
+                   white 0px 0px 25px;
    }
 }
+
+195 183 15
