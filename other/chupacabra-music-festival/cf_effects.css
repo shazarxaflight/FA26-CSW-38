@@ -96,13 +96,13 @@ div#cube_bottom {
 
 @keyframes glow_animation {
    from {
-      text-shadow: #ffffff 0px 0px 10px,
-                   #ffffff 0px 0px 20px,
-                   #ffffff 0px 0px 30px;
+      text-shadow: #c3b70f 0px 0px 2px,
+                   #c3b70f 0px 0px 4px,
+                   #c3b70f 0px 0px 6px;
    }
    to {
-      text-shadow: #ffffff 0px 0px 30px,
-                   #ffffff 0px 0px 40px,
-                   #ffffff 0px 0px 50px;
+      text-shadow: #c3b70f 0px 0px 6px,
+                   #c3b70f 0px 0px 8px,
+                   #c3b70f 0px 0px 10px;
    }
 }
