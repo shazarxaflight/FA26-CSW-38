@@ -58,7 +58,7 @@
       <div id="cube">
       
          <div id="cube_bottom" class="cube_face">
-            <h1>The 15th Annual Chupacabra Music Festival</h1>
+            <h1 id="animation"></h1>
          </div>
          
          <div id="cube_top" class="cube_face">
@@ -95,10 +95,10 @@
       function typewriter() {
          var speed = isDeleting ? 50 : 100;
          if (isDeleting) {
-            document.getElementById("cube_bottom").innerHTML = txt.substring(0, i - 1);
+            document.getElementById("animation").innerHTML = txt.substring(0, i - 1);
          	i--;
          } else {
-         	document.getElementById("cube_bottom").innerHTML = txt.substring(0, i + 1);
+         	document.getElementById("animation").innerHTML = txt.substring(0, i + 1);
             i++;
          }
          if (!isDeleting && i === txt.length) {
@@ -108,9 +108,6 @@
             isDeleting = false;
             speed = 500;
          }
-         document.getElementById("help").innerHTML = i;
-         document.getElementById("please").innerHTML = speed;
-         document.getElementById("hhh").innerHTML = isDeleting
          setTimeout(typewriter, speed);
       }
       
