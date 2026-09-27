@@ -82,7 +82,7 @@ div#cube_right {
 
 div#cube_top {
    transform: translateY(-200px) rotateX(-90deg);
-   animation-name: copout_animation;
+   animation-name: glow_animation;
    animation-duration: 1s;
    animation-timing-function: ease-in-out;
    animation-iteration-count: infinite;
@@ -91,14 +91,14 @@ div#cube_top {
 
 div#cube_bottom {
    transform: translateY(200px) rotateX(90deg);
-   animation-name: glow_animation;
+   animation-name: copout_animation;
    animation-duration: 1s;
    animation-timing-function: ease-in-out;
    animation-iteration-count: infinite;
    animation-direction: alternate;
 }
 
-@keyframes glow_animation {
+@keyframes copout_animation {
    from {
       text-shadow: rgba(195, 183, 15, 0.6) 0px 0px 0px,
                    rgba(195, 183, 15, 0.6) 0px 0px 5px,
@@ -111,7 +111,7 @@ div#cube_bottom {
    }
 }
 
-@keyframes copout_animation {
+@keyframes glow_animation {
    from {
       text-shadow: white 0px 0px 0px,
                    white 0px 0px 5px;
