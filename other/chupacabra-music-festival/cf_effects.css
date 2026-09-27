@@ -87,7 +87,8 @@ div#cube_top {
 div#cube_bottom {
    transform: translateY(200px) rotateX(90deg);
    animation-name: glow_animation;
-   animation-duration: 2s;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
    animation-iteration-count: infinite;
    animation-direction: alternate;
 }
