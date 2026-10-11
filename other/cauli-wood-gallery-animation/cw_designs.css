@@ -167,3 +167,26 @@ footer p {
    margin: 0px;
    padding: 10px 0px;
 }
+
+article img {
+   animation-name: rotate_animation;
+   animation-duration: 3s;
+   animation-timing-function: ease;
+   animation-iteration-count: infinite;
+   animation-play-state: running;
+}
+
+article img:hover {
+   animation-play-state: paused;
+}
+
+@keyframes rotate_animation {
+   0% {
+      transform: rotate(0deg);
+   }
+   50% {
+      transform: rotate(180deg);
+   }
+   100% {
+	   transform: rotate(360deg);
+}
