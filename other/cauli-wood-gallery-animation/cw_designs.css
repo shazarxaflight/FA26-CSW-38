@@ -189,4 +189,5 @@ article img:hover {
    }
    100% {
 	   transform: rotate(360deg);
+   }
 }
