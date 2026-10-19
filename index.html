@@ -29,6 +29,16 @@
       margin-bottom: 10px;
       margin-left: 10px;
     }
+
+    article {
+      column-width: 200px;
+      column-gap: 20px;
+      column-rule: 1px solid purple;
+    }
+
+    article div {
+      break-inside: avoid;
+    }
   </style>
 </head>
 
@@ -136,10 +146,14 @@ function drawName(ctx, radius) {
 </script>
 
 <!-- navigation list -->
+<article>
+<div>
 <p><strong>Pre-Requisite</strong></p>
   <ul>
     <li><a href="pre-requisite/example.html">Welcome to Your Course</a></li>
   </ul>
+</div>
+<div>
 <p><strong>Tutorial 1</strong></p>
   <ul>
     <li><a href="tutorial-1/coding-challenge-1/code1-1.html">Coding Challenge 1-1</a></li>
@@ -150,6 +164,8 @@ function drawName(ctx, radius) {
     <li><a href="tutorial-1/case-problem-1/jtc_index.html">Jedds Tree Care</a></li>
     <li><a href="tutorial-1/case-problem-2/dr_index.html">Diane's Run</a></li>
   </ul>
+</div>
+<div>
 <p><strong>Tutorial 2</strong></p>
   <ul>
     <li><a href="tutorial-2/coding-challenge-1/code2-1.html">[placeholder]</a></li>
@@ -160,6 +176,8 @@ function drawName(ctx, radius) {
     <li><a href="tutorial-2/case-problem-1/ph_plays.html">PHCT Play List</a></li>
     <li><a href="tutorial-2/case-problem-2/cw_class.html">Civil War History</a></li>
   </ul>
+</div>
+<div>
 <p><strong>Tutorial 3</strong></p>
   <ul>
     <li><a href="tutorial-3/coding-challenge-1/code3-1.html">Coding Challenge 3-1</a></li>
@@ -170,6 +188,8 @@ function drawName(ctx, radius) {
     <li><a href="tutorial-3/case-problem-1/sp_home.html">Slate &amp; Pencil Tutoring</a></li>
     <li><a href="tutorial-3/case-problem-2/ss_dday.html">Normandy Invasion: Day 1</a></li>
   </ul>
+</div>
+<div>
 <p><strong>Tutorial 4</strong></p>
   <ul>
     <li><a href="tutorial-4/coding-challenge-1/code4-1.html">Coding Challenge 4-1</a></li>
@@ -180,6 +200,8 @@ function drawName(ctx, radius) {
     <li><a href="tutorial-4/case-problem-1/sf_torte.html">Save your Fork: Apple Bavarian Torte</a></li>
     <li><a href="tutorial-4/case-problem-2/cf_home.html">Chupacabra 15 Festival</a></li>
   </ul>
+</div>
+<div>
 <p><strong>Tutorial 5</strong></p>
   <ul>
     <li><a href="tutorial-5/coding-challenge-1/code5-1.html">[placeholder]</a></li>
@@ -190,6 +212,8 @@ function drawName(ctx, radius) {
     <li><a href="tutorial-5/case-problem-1/gp_cover.html">Ghost of the Deep Cover Page</a></li>
     <li><a href="tutorial-5/case-problem-2/cw_home.html">Cauli-Wood Gallery</a></li>
   </ul>
+</div>
+<div>
 <p><strong>Tutorial 6</strong></p>
   <ul>
     <li><a href="tutorial-6/coding-challenge-1/code6-1.html">[placeholder]</a></li>
@@ -200,6 +224,8 @@ function drawName(ctx, radius) {
     <li><a href="tutorial-6/case-problem-1/mi_pricing.html">Marlin Internet</a></li>
     <li><a href="tutorial-6/case-problem-2/lht_sept.html">Lyman Hall Theater in September</a></li>
   </ul>
+</div>
+<div>
 <p><strong>Other</strong></p>
   <ul>
     <li><a href="other/clockface-upgrade/clock.html">Clockface Upgrade</a></li>
@@ -208,6 +234,8 @@ function drawName(ctx, radius) {
     <li><a href="other/3-page-site/turtle-trackers.html">3-Page Site</a></li>
     <li><a href="other/cauli-wood-gallery-animation/cw_home.html">Cauli-Wood Gallery Animation</a></li>
   </ul>
+</div>
+</article>
 
 </body>
 
