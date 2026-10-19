@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      New Perspectives on HTML5 and CSS3, 8th Edition
+      Tutorial 6
+      Case Problem 2
+
+      LHT September Schedule
+      Author: Alice Chevrier-King
+      Date: 10/16/2026
+
+      Filename: lht_sept.html
+
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Lyman Hall Theater in September</title>
+   <link href="lht_reset.css" rel="stylesheet" />
+   <link href="lht_styles.css" rel="stylesheet" />
+   <link href="lht_tables.css" rel="stylesheet" />
+   <link href="lht_columns.css" rel="stylesheet" />
+</head>
+
+<body>
+   <header>
+      <img src="lht_logo.png" alt="The Lyman Hall Theater" id="logoimg" />
+      <nav> <a id="navicon" href="#"><img src="lht_navicon.png" alt="" /></a>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Box Office</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">Directions</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <article>
+      <h1>Coming Up at the Lyman Hall Theater</h1>
+      <p>September will be another banner month at the Lyman Hall 
+         Theatre with three performances of the Tony Award winning 
+         musical, <em>West Side Story</em> by the Broadway Touring Company. 
+         Tickets are going fast, so order yours today.
+      </p>
+
+      <p>Celebrate a Date Night with the Chamberlain Symphony and 
+         their special selection of classical music for lovers. Later that
+         week, exercise your mind by attending the Charles Dickens classic,
+         <em>The Mystery of Edwin Drood</em>. Can you solve Dickens' 
+         unfinished mystery?
+      </p>
+
+      <p>Jazz lovers have a lot to celebrate in September with a visit 
+         from the <em>Jazz Masters</em> on September 22nd, and then on September 
+         25th, enjoy the music of The Duke with an <em>Ellington Tribute</em> 
+         performed by the Jazz Company of Kansas City.
+      </p>
+
+      <p>Pins, bottles, plates, and chairs are flying at the Chamberlain 
+         Civic Center in September. The <em>Taiwan Acrobats</em> return on 
+         September 3rd with another amazing performance. We close out the 
+         month with a visit from the <em>Madtown Jugglers</em> and their unique 
+         blend of comedy, juggling, and madness.
+      </p>
+
+      <p>Enjoy a classical brunch every Sunday in September with music 
+         provided by the <em>Carson Quartet</em>. Seating is limited, so please order 
+         your table in advance.
+      </p>
+   </article>
+   
+   <table id="calendar">
+      <caption>September 2021 Calendar</caption>
+      <colgroup>
+         <col span="5" class="weekdays" />
+         <col span="2" class="weekends" />
+      </colgroup>
+      <thead>
+         <tr>
+            <th><h1>Sun</h1></th>
+            <th><h1>Mon</h1></th>
+            <th><h1>Tue</h1></th>
+            <th><h1>Wed</h1></th>
+            <th><h1>Thu</h1></th>
+            <th><h1>Fri</h1></th>
+            <th><h1>Sat</h1></th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td data-date="Sun, Aug 29, 2021">
+               <h1>29</h1>
+               <dl>
+                  <dt>Carson Quartet</dt>
+                  <dd>1 pm</dd>
+                  <dd>$12</dd>
+               </dl>
+            </td>
+            <td data-date="Mon, Aug 30, 2021">
+               <h1>30</h1>
+               <dl>
+                  <dt>Harlem Choir</dt>
+                  <dd>8 pm</dd>
+                  <dd>$18/$24/$32</dd>
+               </dl>
+            </td>
+            <td data-date="Tue, Aug 31, 2021">
+               <h1>31</h1>
+            </td>
+            <td data-date="Wed, Sep 1, 2021">
+               <h1>1</h1>
+            </td>
+            <td data-date="Thu, Sep 2, 2021">
+               <h1>2</h1>
+            </td>
+            <td data-date="Fri, Sep 3, 2021">
+               <h1>3</h1>
+               <dl>
+                  <dt>Taiwan Acrobats</dt>
+                  <dd>8 pm</dd>
+                  <dd>$24/$32/$48</dd>
+               </dl>
+            </td>
+            <td data-date="Sat, Sep 4, 2021">
+               <h1>4</h1>
+               <dl>
+                  <dt>Joey Gallway</dt>
+                  <dd>8 pm</dd>
+                  <dd>$24/$32/$48</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="Sun, Sep 5, 2021">
+               <h1>5</h1>
+               <dl>
+                  <dt>Carson Quartet</dt>
+                  <dd>1 pm</dd>
+                  <dd>$12</dd>
+               </dl>
+            </td>
+            <td data-date="Mon, Sep 6, 2021">
+               <h1>6</h1>
+            </td>
+            <td data-date="Tue, Sep 7, 2021">
+               <h1>7</h1>
+               <dl>
+                  <dt>Ralph Williams</dt>
+                  <dd>8 pm</dd>
+                  <dd>$24/$36/$42</dd>
+               </dl>
+            </td>
+            <td data-date="Wed, Sep 8, 2021">
+               <h1>8</h1>
+            </td>
+            <td data-date="Thu, Sep 9, 2021">
+               <h1>9</h1>
+               <dl>
+                  <dt>West Side Story</dt>
+                  <dd>7 pm</dd>
+                  <dd>$36/$48/$64</dd>
+               </dl>
+            </td>
+            <td data-date="Fri, Sep 10, 2021">
+               <h1>10</h1>
+               <dl>
+                  <dt>West Side Story</dt>
+                  <dd>7 pm</dd>
+                  <dd>$36/$48/$64</dd>
+               </dl>
+            </td>
+            <td data-date="Sat, Sep 11, 2021">
+               <h1>11</h1>
+               <dl>
+                  <dt>West Side Story</dt>
+                  <dd>7 pm</dd>
+                  <dd>$36/$48/$64</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="Sun, Sep 12, 2021">
+               <h1>12</h1>
+               <dl>
+                  <dt>Carson Quartet</dt>
+                  <dd>1 pm</dd>
+                  <dd>$12</dd>
+               </dl>
+            </td>
+            <td data-date="Mon, Sep 13, 2021">
+               <h1>13</h1>
+            </td>
+            <td data-date="Tue, Sep 14, 2021">
+               <h1>14</h1>
+            </td>
+            <td data-date="Wed, Sep 15, 2021">
+               <h1>15</h1>
+               <dl>
+                  <dt>Chamberlain Symphony</dt>
+                  <dd>8 pm</dd>
+                  <dd>$18/$24/$32</dd>
+               </dl>
+            </td>
+            <td data-date="Thu, Sep 16, 2021">
+               <h1>16</h1>
+            </td>
+            <td data-date="Fri, Sep 17, 2021">
+               <h1>17</h1>
+               <dl>
+                  <dt>Edwin Drood</dt>
+                  <dd>8 pm</dd>
+                  <dd>$36/$48/$58</dd>
+               </dl>
+            </td>
+            <td data-date="Sat, Sep 18, 2021">
+               <h1>18</h1>
+               <dl>
+                  <dt>Edwin Drood</dt>
+                  <dd>8 pm</dd>
+                  <dd>$36/$48/$58</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="Sun, Sep 19, 2021">
+               <h1>19</h1>
+               <dl>
+                  <dt>Carson Quartet</dt>
+                  <dd>1 pm</dd>
+                  <dd>$12</dd>
+               </dl>
+            </td>
+            <td data-date="Mon, Sep 20, 2021">
+               <h1>20</h1>
+            </td>
+            <td data-date="Tue, Sep 21, 2021">
+               <h1>21</h1>
+            </td>
+            <td data-date="Wed, Sep 22, 2021">
+               <h1>22</h1>
+               <dl>
+                  <dt>Jazz Masters</dt>
+                  <dd>8 pm</dd>
+                  <dd>$18/$24/$32</dd>
+               </dl>
+            </td>
+            <td data-date="Thu, Sep 23, 2021">
+               <h1>23</h1>
+            </td>
+            <td data-date="Fri, Sep 24, 2021">
+               <h1>24</h1>
+               <dl>
+                  <dt>The Yearling</dt>
+                  <dd>7 pm</dd>
+                  <dd>$12/$18/$24</dd>
+               </dl>
+            </td>
+            <td data-date="Sat, Sep 25, 2021">
+               <h1>25</h1>
+               <dl>
+                  <dt>An Ellington Tribute</dt>
+                  <dd>8 pm</dd>
+                  <dd>$24/$38/$48</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="Sun, Sep 26, 2021">
+               <h1>26</h1>
+               <dl>
+                  <dt>Carson Quartet</dt>
+                  <dd>1 pm</dd>
+                  <dd>$12</dd>
+               </dl>
+            </td>
+            <td data-date="Mon, Sep 27, 2021">
+               <h1>27</h1>
+            </td>
+            <td data-date="Tue, Sep 28, 2021">
+               <h1>28</h1>
+            </td>
+            <td data-date="Wed, Sep 29, 2021">
+               <h1>29</h1>
+               <dl>
+                  <dt>Madtown Jugglers</dt>
+                  <dd>8 pm</dd>
+                  <dd>$12/$16/$20</dd>
+               </dl>
+            </td>
+            <td data-date="Thu, Sep 30, 2021">
+               <h1>30</h1>
+               <dl>
+                  <dt>Othello</dt>
+                  <dd>8 pm</dd>
+                  <dd>$24/$36/$48</dd>
+               </dl>
+            </td>
+            <td data-date="Fri, Oct 1, 2021">
+               <h1>1</h1>
+               <dl>
+                  <dt>Othello</dt>
+                  <dd>8 pm</dd>
+                  <dd>$24/$36/$48</dd>
+               </dl>
+            </td>
+            <td data-date="Sat, Oct 2, 2021">
+               <h1>2</h1>
+               <dl>
+                  <dt>Othello</dt>
+                  <dd>8 pm</dd>
+                  <dd>$24/$36/$48</dd>
+               </dl>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+      
+   <footer>
+      <nav>
+         <ul>
+            <li><a href="#">Visitors</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Parking</a></li>
+         </ul>
+         <ul>
+            <li><a href="#">Box Office</a></li>
+            <li><a href="#">Group Rates</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">FAQs</a></li>
+         </ul>   
+         <ul>
+            <li><a href="#">Foundation</a></li>
+            <li><a href="#">Board</a></li>
+            <li><a href="#">Donations</a></li>
+            <li><a href="#">Volunteering</a></li>
+         </ul>            
+      </nav>
+      <section>
+         The Lyman Hall Theater<br />
+         414 Leeward Drive<br />
+         Brookhaven, GA 30319<br /><br />
+         Office: (404) 555 - 4140<br />
+         Box Office: (404) 555 - 4144
+      </section>      
+   </footer>
+      
+</body>
+</html>
