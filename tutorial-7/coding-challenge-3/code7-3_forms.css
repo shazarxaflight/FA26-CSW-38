@@ -31,7 +31,6 @@ label {
    display: block;
    margin: 0px 0px 10px 0px;
    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-   
 }
 
 select#ccard {
@@ -48,6 +47,7 @@ select#ccard {
    font-size: 0.9em;
    margin: 0px 0px 10px 0px;
 }
+
 input {
    display: block;
    margin: 0px 0px 10px 0px;
