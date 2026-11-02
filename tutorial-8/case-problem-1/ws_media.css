@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 8
+   Case Problem 1
+
+   Rhetoric in the United States Styles for Media
+   Author: Alice Chevrier-King
+   Date: 11/02/2026
+
+   Filename: ws_media.css
+
+*/
+
+/* Video Player Styles */
+
+video {
+   display: block;
+   width: 90%;
+   margin-top: 5px;
+   margin-right: auto;
+   margin-bottom: 5px;
+   margin-left: auto;
+}
+
+@media only screen and (min-width: 521px) {
+
+   video {
+      width: 360px;
+      float: right;
+      margin: 10px;
+   }
+
+}
+
+/* Track Styles */
+
+::cue {
+   font: 1.3em sans-serif;
+   color: rgb(221, 128, 160);
+   background: rgba(255, 255, 255, 0.8);
+}
