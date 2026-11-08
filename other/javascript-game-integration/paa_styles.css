@@ -137,7 +137,7 @@ aside p {
 /* Gamebox Styles */
 
 div#gameBox {
-   background:url(paa_forest.png) center center/ cover no-repeat;
+   background: url(paa_forest.png) center center / cover no-repeat;
    border-radius: 75px;
    height: 420px;
    position: relative;
