@@ -27,7 +27,7 @@ const invaderRows = 3;
 const invaderCols = 7;
 const invaderWidth = 40;
 const invaderHeight = 25;
-let invaderSpeed = 2;
+let invaderSpeed = 1;
 let invaderDirection = 1; // 1 = Right, -1 = Left
 
 // Key Tracking
