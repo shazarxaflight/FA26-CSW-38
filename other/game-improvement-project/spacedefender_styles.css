@@ -1,6 +1,10 @@
+html {
+  background: #050510 url('spacedefender_back1.png') center / cover no-repeat fixed;
+}
+
 body {
   margin: 0;
-  background: #050510, #050510, url('spacedefender_back1.png') center / cover no-repeat fixed;
+  background: rgba(5, 5, 16, 0.5);
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
