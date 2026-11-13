@@ -120,9 +120,11 @@ aside.infobox {
 }
 
 #background {
+  display: block;
   float: left;
 }
 
 #music {
+  display: block;
   float: right;
 }
