@@ -122,18 +122,21 @@ aside.infobox {
 #background {
   position: relative;
   top: -50%;
-  left: 75%;
+  left: -25%;
 }
 
 #music {
   position: relative;
   top: -50%;
-  left: 75%;
+  left: 25%;
 }
 
 a:hover, a:active, a:focus {
   color: #00997b;
+  text-decoration: underline;
 }
 
 a:link, a:visited {
   color: #00ffcc;
+  text-decoration: none;
+}
