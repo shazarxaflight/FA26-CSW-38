@@ -216,3 +216,16 @@ function loop() {
 // Start Game Execution
 createInvaders();
 loop();
+
+// Randomize Backgrounds
+showImage()
+setInterval(showBackground, 5000);
+
+function showBackground() {
+   var slideNumber = randNumber(1, 3);
+   document.html.style.background = "#050510 url('spacedefender_back" + slideNumber + ".png') center / cover no-repeat fixed";
+}
+
+function randNumber(min, max) {
+   return Math.floor(min + (max-min+1)*Math.random());
+}
