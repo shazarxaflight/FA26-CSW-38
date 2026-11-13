@@ -3,11 +3,9 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 const scoreEl = document.getElementById('score');
-const livesEl = document.getElementById('lives');
 
 // Game State
 let score = 0;
-let lives = 3;
 let gameOver = false;
 
 // Player Starship Object
@@ -149,7 +147,6 @@ function update() {
 
 function resetGame() {
   score = 0;
-  lives = 3;
   gameOver = false;
   invaderSpeed = 1;
   invaderDirection = 1;
@@ -157,7 +154,6 @@ function resetGame() {
   lasers.length = 0;
   invaders.length = 0;
   scoreEl.innerText = score;
-  livesEl.innerText = lives;
   createInvaders();
   playAgainBtn.disabled = true;
   playAgainBtn.blur(); // keep Spacebar from re-triggering the button
@@ -201,7 +197,7 @@ function draw() {
   ctx.fillStyle = '#ffcc00';
   invaders.forEach(invader => {
     if (!invader.alive) return;
-    ctx.fillRect(invader.x, invader.y, invader.width, invader.height); // Draw Sleek Retro Block Alien Shape
+    ctx.fillRect(invader.x, invader.y, invader.width, invader.height); // Draw Alien Shape
     ctx.fillStyle = '#000';
     ctx.fillRect(invader.x + 8, invader.y + 6, 6, 6); // Left Eye
     ctx.fillRect(invader.x + invader.width - 14, invader.y + 6, 6, 6); // Right Eye
