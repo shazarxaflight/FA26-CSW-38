@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  background: rgba(5, 5, 16, 0.5),
-              #050510 url('spacedefender_back1.png') center / cover no-repeat fixed;
+  background: #050510, #050510, url('spacedefender_back1.png') center / cover no-repeat fixed;
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
@@ -59,7 +58,7 @@ canvas {
 @media (max-width: 1000px) {
   
   body {
-    padding-top: 90px;
+    padding-top: 60px;
     box-sizing: border-box;
   }
   
