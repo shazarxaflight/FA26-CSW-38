@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: #050510 url('spacedefender_back1.png') center / cover no-repeat fixed;
+  background: rgba(5, 5, 16, 50),
+              #050510 url('spacedefender_back1.png') center / cover no-repeat fixed;
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
@@ -32,8 +33,7 @@ h2 {
 
 canvas {
   border: 2px solid #00ffcc;
-  background: radial-gradient(circle, #111530 0%, #050510 100%),
-              url('spacedefender_back2.png') center / cover no-repeat fixed;
+  background: radial-gradient(circle, #111530 0%, #050510 100%);
   box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
 }
 
