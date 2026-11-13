@@ -7,6 +7,7 @@ const scoreEl = document.getElementById('score');
 // Game State
 let score = 0;
 let gameOver = false;
+playAgainBtn.disabled = true;
 
 // Player Starship Object
 const player = {
@@ -130,13 +131,13 @@ function update() {
     });
   });
   
-  // Win Condition (All enemies destroyed)
+  // Win Condition (all enemies destroyed)
   if (invaders.length > 0 && invaders.every(inv => !inv.alive)) {
     invaderSpeed += 0.5;
     createInvaders();
   }
   
-  // Lose Condition (Enemies land)
+  // Lose Condition (enemies land)
   invaders.forEach(invader => {
     if (invader.alive && invader.y + invader.height >= player.y) {
       gameOver = true;
@@ -174,7 +175,7 @@ function draw() {
     ctx.textAlign = 'center';
     ctx.fillText("GAME OVER", canvas.width / 2, canvas.height / 2);
     ctx.font = '20px Courier New';
-    ctx.fillText("click Play again to restart", canvas.width / 2, canvas.height / 2 + 40);
+    ctx.fillText("click Play to restart", canvas.width / 2, canvas.height / 2 + 40);
     return;
   }
   
