@@ -29,6 +29,11 @@ h2 {
   font-size: 15px;
 }
 
+h3 {
+  color: #87ceeb;
+  font-size: 20px;
+}
+
 #scoreboard {
   font-size: 20px;
   margin-bottom: 10px;
@@ -108,9 +113,10 @@ canvas {
 }
 
 aside.infobox {
-  background: rgba(255, 255, 255, 0.3);
-  padding: 10px;
-  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  border-radius: 10px;
+  width: 20%;
 }
 
 #background {
