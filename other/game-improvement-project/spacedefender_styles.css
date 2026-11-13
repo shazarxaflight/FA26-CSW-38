@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: rgba(5, 5, 16, 50),
+  background: rgba(5, 5, 16, 0.5),
               #050510 url('spacedefender_back1.png') center / cover no-repeat fixed;
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
