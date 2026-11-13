@@ -218,7 +218,7 @@ createInvaders();
 loop();
 
 // Randomize Backgrounds
-showImage()
+showBackground()
 setInterval(showBackground, 5000);
 
 function showBackground() {
