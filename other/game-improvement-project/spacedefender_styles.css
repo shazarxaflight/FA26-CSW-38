@@ -13,7 +13,7 @@ body {
   text-align: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 h1 {
@@ -105,4 +105,18 @@ canvas {
   color: #87ceeb;
   font-size: 20px;
   font-weight: bold;
+}
+
+aside.infobox {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#background {
+  float: left;
+}
+
+#music {
+  float: right;
 }
