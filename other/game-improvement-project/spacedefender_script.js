@@ -7,7 +7,6 @@ const scoreEl = document.getElementById('score');
 // Game State
 let score = 0;
 let gameOver = false;
-playAgainBtn.disabled = true;
 
 // Player Starship Object
 const player = {
@@ -161,6 +160,7 @@ function resetGame() {
 }
 
 const playAgainBtn = document.getElementById('playAgain');
+playAgainBtn.disabled = true;
 
 playAgainBtn.addEventListener('click', () => {
   if (gameOver) resetGame();
