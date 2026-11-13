@@ -174,7 +174,7 @@ function draw() {
     ctx.textAlign = 'center';
     ctx.fillText("GAME OVER", canvas.width / 2, canvas.height / 2);
     ctx.font = '20px Courier New';
-    ctx.fillText("Click Play Again to restart", canvas.width / 2, canvas.height / 2 + 40);
+    ctx.fillText("click Play again to restart", canvas.width / 2, canvas.height / 2 + 40);
     return;
   }
   
