@@ -14,7 +14,7 @@ body {
 h1 {
   margin: 5px 0px;
   color: #00ffcc;
-  font-size: 50px
+  font-size: 50px;
   text-shadow: 0 0 10px #00ffcc;
 }
 
@@ -97,6 +97,6 @@ canvas {
 .instructions {
   margin-top: 10px;
   color: #87ceeb;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
 }
