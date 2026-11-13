@@ -115,16 +115,25 @@ canvas {
 aside.infobox {
   background: rgba(255, 255, 255, 0.1);
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 20%;
 }
 
 #background {
-  display: block;
-  float: left;
+  position: relative;
+  top: -50%;
+  left: 75%;
 }
 
 #music {
-  display: block;
-  float: right;
+  position: relative;
+  top: -50%;
+  left: 75%;
 }
+
+a:hover, a:active, a:focus {
+  color: #00997b;
+}
+
+a:link, a:visited {
+  color: #00ffcc;
