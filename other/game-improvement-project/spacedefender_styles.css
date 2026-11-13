@@ -12,10 +12,16 @@ body {
 }
 
 h1 {
-  margin: 5px 0;
+  margin: 5px 0px;
   color: #00ffcc;
+  font-size: 50px
   text-shadow: 0 0 10px #00ffcc;
 }
+
+h2 {
+  margin: 0px 0px 25px 0px;
+  color: #87ceeb;
+  font-size: 15px;
 
 #scoreboard {
   font-size: 20px;
