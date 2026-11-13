@@ -121,17 +121,17 @@ aside.infobox {
 
 #background {
   position: relative;
-  top: -50%;
-  left: -25%;
+  top: -400px;
+  left: -35%;
 }
 
 #music {
   position: relative;
-  top: -50%;
-  left: 25%;
+  top: -400px;
+  left: 35%;
 }
 
-a:hover, a:active, a:focus {
+a:hover, a:active {
   color: #00997b;
   text-decoration: underline;
 }
