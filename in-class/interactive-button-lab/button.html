@@ -8,13 +8,15 @@
     }
     
     #launchButton {
-      border: none;
-      border-radius: 30px;
-      margin-left: auto;
+      display: block;
       margin-top: 20%;
       margin-right: auto;
+      margin-left: auto;
       padding: 20px;
+      border: none;
+      border-radius: 30px;
       background-color: blue;
+      box-shadow: inset white 5px 5px 2px;
       color: white;
       font-size: 2em;
       transition: all 0.4s linear;
@@ -22,8 +24,13 @@
 
     #launchButton:hover {
       background-color: green;
-      box-shadow: black -5px -5px 2px;
-      transform: scale(0.9, 0.9);
+      box-shadow: black 5px 5px 8px;
+      transform: scale(1.1, 1.1);
+    }
+
+    #launchButton: active {
+      transform: scale(0.95, 0.95);
+      box-shadow: black -5px -5px 8px;
     }
   </style>
 </head>
