@@ -5,7 +5,6 @@
    Tutorial 7
    Coding Challenge 3
 
-
    Filename: formsubmit.js
 
    Purpose: The purpose of this program is to simply report on a
@@ -27,5 +26,5 @@ window.onload = function() {
          alert("Form Submitted");
          return false;
       }
-   };
-};
+   }
+}
