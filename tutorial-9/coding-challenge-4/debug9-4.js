@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
@@ -8,7 +8,6 @@
    Debug
    Author: Alice Chevrier-King
    Date: 11/09/2026
-
 
 */
 
