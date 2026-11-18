@@ -1,4 +1,5 @@
 "use strict";
+
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
    Tutorial 7
@@ -17,7 +18,6 @@
             The event function returns a value of false so that the
             student does not have to continually retype test values
             in the survey form.
-
 
 */
 
