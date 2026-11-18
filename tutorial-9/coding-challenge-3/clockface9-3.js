@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
@@ -8,7 +8,6 @@
    Clock Face
    Author: Alice Chevrier-King
    Date: 11/07/2026
-
 
 */
 
